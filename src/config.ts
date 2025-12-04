@@ -1,38 +1,49 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Nguyen Hoai An",
+  title: "Aspiring Frontend Developer",
+  description: "Portfolio website of Nguyen Hoai An",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "hoaiiann0804@gmail.com",
+    linkedin: "https://www.linkedin.com/in/hoaiiann0804/",
+    github: "https://github.com/hoaiiann0804",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Aspiring Frontend Developer | College Student. Passionate about building responsive web apps with ReactJS, JavaScript, and Tailwind CSS. Proactive learner, eager to contribute to real-world projects.",
+  skills: [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Tailwind CSS",
+    "Redux",
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+    "MongoDB",
+    "Git",
+  ],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      name: "Movie Web App",
+      description: "Built responsive UI, movie search functionality.",
+      link: "https://movie-app-reactjs-pink.vercel.app",
+      skills: ["React", "CSS3"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Amethyst – Fashion E-commerce",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Developed cart & checkout modules, integrated frontend with backend APIs.",
+      link: "https://github.com/hoaiiann0804/Fashion_Ecommerce",
+      skills: ["React", "Tailwind CSS", "TypeScript"],
     },
     {
-      name: "ExtensionKit",
+      name: "Mini E-commerce with AI Chatbot",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Integrated AI chatbot & payment API with fallback solutions.",
+      link: "https://github.com/hoaiiann0804/E-Commerce-Mini-with-AI-Chatbot",
+      skills: ["React", "TypeScript", "Redux", "Tailwind CSS"],
     },
   ],
   experience: [
@@ -69,24 +80,25 @@ export const siteConfig = {
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
+      school: "Ho Chi Minh City Industry and Trade College (HITC). ",
+      degree: "Information Technology",
+      dateRange: "2022 - 2026",
+      // achievements: [
+      //   "Graduated Magna Cum Laude with 3.8 GPA",
+      //   "Dean's List all semesters",
+      //   "President of Computer Science Club",
+      // ],
+
     },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
+    // {
+    //   school: "Online Platform",
+    //   degree: "Full Stack Development Certificate",
+    //   dateRange: "2019",
+    //   achievements: [
+    //     "Completed 500+ hours of coursework",
+    //     "Built 10+ portfolio projects",
+    //     "Specialized in React and Node.js",
+    //   ],
+    // },
   ],
 };
